@@ -5,6 +5,7 @@
 
 # jQuery function is called via the dollar sign, and the arrow indicate the start of a function??
 
+# This is to change the class of something with hover to on when it's being hovered over
 
 $ ->
 	$('.status').hover (event) ->

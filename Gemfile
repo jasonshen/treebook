@@ -7,6 +7,8 @@ gem 'rails', '3.2.8'
 
 gem 'sqlite3'
 
+# Devise helps create a user sign up thing?
+gem 'devise'
 
 # Gems used only for assets and not required
 # in production environments by default.
