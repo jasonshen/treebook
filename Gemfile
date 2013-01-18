@@ -10,6 +10,9 @@ gem 'sqlite3'
 # Devise helps create a user sign up thing?
 gem 'devise'
 
+# simple form makes our forms look better Treehouse
+gem 'simple_form'
+
 # Gems used only for assets and not required
 # in production environments by default.
 group :assets do

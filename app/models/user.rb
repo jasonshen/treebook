@@ -9,4 +9,13 @@ class User < ActiveRecord::Base
   attr_accessible :email, :password, :password_confirmation, :remember_me,
   				:first_name, :last_name, :profile_name
   # attr_accessible :title, :body
+
+  # has many status
+
+  has_many :statuses
+
+  # defining a full name
+  def full_name
+  		first_name + " " + last_name
+  	end
 end

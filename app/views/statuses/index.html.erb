@@ -7,14 +7,14 @@
 <% @statuses.each do |status| %>
 
   <div class="status">
-      <strong><%= status.name %></strong>
+      <strong><%= status.user.full_name %></strong>
       <p><%= status.content %></p>
       <div class="meta">
         <%= link_to time_ago_in_words(status.created_at) + " ago", status %>
 
         <span class="admin">
-        | <%= link_to "Edit", edit_status_path(status) %> | 
-        <%= link_to "Delete", status, method: :delete, dat: {confirm: "Are you sure you want to kill it forever????"} %>
+        | <%= link_to "Edit", edit_status_path(status), confirm: "Are you sure you want to edit?????" %> | 
+        <%= link_to "DeleteD", status, method: :delete, confirm: "Are you sure you want to kill it forever????" %>
       </div>
     </div>
 
