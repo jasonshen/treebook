@@ -11,3 +11,10 @@ jason:
   email: "jasonyshen@gmail.com"
   profile_name: "jasonshen"
   encrypted_password: "password"
+
+jim:
+  first_name: "Jim"
+  last_name: "Hoskins"
+  email: "jimhoskins@gmail.com"
+  profile_name: "jimhoskins"
+  encrypted_password: "password"

@@ -16,6 +16,7 @@ Treebook::Application.routes.draw do
   # Required for devise
   root to: "statuses#index"
 
+  get '/:id', to: 'profiles#show'
 
   # The priority is based upon order of creation:
   # first created -> highest priority.
