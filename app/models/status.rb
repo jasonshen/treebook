@@ -4,7 +4,7 @@ class Status < ActiveRecord::Base
 # Calling one of the attributes of the class, associating a status with user
   belongs_to :user
   validates :content, presence: true,
-              length: { minimum: 52 }
+              length: { minimum: 2 }
               
   validates :user_id, presence: true
 end
