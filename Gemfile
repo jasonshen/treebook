@@ -10,6 +10,9 @@ group :development, :test do
   gem 'sqlite3'
 end
 
+group :production do
+	gem "pg"
+end
 
 # Devise helps create a user sign up thing?
 gem 'devise'
