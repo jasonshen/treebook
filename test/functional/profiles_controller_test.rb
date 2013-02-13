@@ -24,6 +24,7 @@ class ProfilesControllerTest < ActionController::TestCase
 		get :show, id: users(:jason).profile_name
 		assigns(:statuses).each do |status|
 			assert_equal users(:jason), status.user
+			
 		end
 	end
 
